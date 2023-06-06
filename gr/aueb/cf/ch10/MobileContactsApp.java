@@ -81,7 +81,6 @@ public class MobileContactsApp {
         for (String[] contact : allContacts) {
             if (contact != null ) printContact(contact);
             // System.out.printf("%s\t%s\t%s\n", contact[0], contact[1], contact[2]);
-
         }
     }
 
