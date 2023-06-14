@@ -22,11 +22,11 @@ public class Point2D extends Point{
         this.y = y;
     }
 
-    @Override
-    public String convertToString() {
-//        return super.convertToString() + "(" + y + ")";
-        return "(" + getX() + ", " + y + ")";
-    }
+//    @Override
+//    public String convertToString() {
+////        return super.convertToString() + "(" + y + ")";
+//        return "(" + getX() + ", " + y + ")";
+//    }
 
     @Override
     protected void movePlusOne() {
@@ -35,8 +35,13 @@ public class Point2D extends Point{
     }
 
     @Override
+    public String toString() {
+        return "(" + getX() + ", " + y + ")";
+    }
+
+    @Override
     public void movePlus10() {
         super.movePlus10();
-        y += 10;
+        // y += 10;
     }
 }

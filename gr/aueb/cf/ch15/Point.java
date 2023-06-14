@@ -17,15 +17,25 @@ public class Point {
         this.x = x;
     }
 
-    public String convertToString() {
+//    public String convertToString() {
+//        return "(" + x + ")";
+//    }
+
+    @Override
+    public String toString() {
         return "(" + x + ")";
     }
+
 
     protected void movePlusOne() {
         x += 1;
     }
 
     // self-use
+
+    /**
+     * @ImplSpec
+     */
     public void movePlus10() {
         // x += 10;
 
