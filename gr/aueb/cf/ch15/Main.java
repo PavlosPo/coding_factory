@@ -20,19 +20,19 @@ public class Main {
         p2.movePlus10();
         System.out.println(p2);
 
-//        for (Point point : points) {
-//            if (point instanceof Point3D) {
-//                count3d++;
-//            } else if (point instanceof Point2D) {
-//                count2d++;
-//            } else {
-//                count++;
-//            }
-//        }
+        for (Point point : points) {
+            if (point instanceof Point3D) {
+                count3d++;
+            } else if (point instanceof Point2D) {
+                count2d++;
+            } else {
+                count++;
+            }
+        }
 //
-//        System.out.println("Point instances: " + count);
-//        System.out.println("Point2D instances: " + count2d);
-//        System.out.println("Point3D instances: " + count3d);
+        System.out.println("Point instances: " + count);
+        System.out.println("Point2D instances: " + count2d);
+        System.out.println("Point3D instances: " + count3d);
 
 
 

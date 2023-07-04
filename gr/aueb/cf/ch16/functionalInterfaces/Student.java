@@ -45,4 +45,12 @@ public class Student {
                 ", lastname='" + lastname + '\'' +
                 '}';
     }
+
+    public void printStudent() {
+        System.out.println(this);
+    }
+
+    public static void printStaticStudent(Student student) {
+        System.out.println(student);
+    }
 }
